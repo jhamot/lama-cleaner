@@ -12,3 +12,4 @@ markupsafe==2.0.1
 scikit-image==0.19.3
 diffusers[torch]==0.10.2
 transformers>=4.25.1
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
